@@ -23,7 +23,7 @@ public class Main {
         Client client = new Client();
         try {
             client.start();
-        } catch (IOException ex) {
+        } catch (Exception ex) {
         }
     }
     
